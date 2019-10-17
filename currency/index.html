@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <script type="module">
+        import {App} from './main.js';
+
+        const app = new App();
+        app.run();
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id ="app">
+    <header>
+        <div>
+            Курс гривні НБУ
+        </div>
+    </header>
+
+    <main>
+        <table class="currency">
+            <thead>
+            <tr>
+                <td>Валюта</td>
+                <td>Курс</td>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+</div>
+
+<template id="currency-row">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</template>
+
+</body>
+</html>

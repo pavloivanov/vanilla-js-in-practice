@@ -1,0 +1,17 @@
+#app {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.currency {
+    margin: 0 auto;
+}
+
+thead td {
+    text-align: center;
+}
